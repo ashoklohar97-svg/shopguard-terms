@@ -12,7 +12,7 @@
     *{box-sizing:border-box}
     body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
     .wrap{max-width:980px;margin:0 auto;padding:18px}
-    .card{background:rgba(15,23,42,.9);border:1px solid var(--line);border-radius:14px;padding:18px}
+    .card{background:rgba(15,23,42,.93);border:1px solid var(--line);border-radius:14px;padding:18px}
     h1{margin:0 0 6px;font-size:22px}
     .meta{color:var(--muted);font-size:13px;margin-bottom:14px}
     .tabs{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 14px}
@@ -33,6 +33,15 @@
       display:inline-block;padding:2px 10px;border:1px solid var(--line);
       border-radius:999px;color:var(--text);font-size:12px;background:rgba(17,24,39,.4)
     }
+    .noteBox{
+      border:1px solid var(--line);
+      background:rgba(17,24,39,.55);
+      border-radius:12px;
+      padding:12px;
+      margin-top:10px;
+      color:var(--muted);
+      font-size:13px;
+    }
   </style>
 </head>
 <body>
@@ -40,7 +49,7 @@
     <div class="card">
       <h1>ShopGuard – Terms &amp; Conditions <span class="badge">English + हिन्दी</span></h1>
       <div class="meta">
-        Last updated: <b>2026-02-18</b><br/>
+        Last updated: <b>2026-02-28</b><br/>
         Support Email: <b>shopguard.help@gmail.com</b>
       </div>
 
@@ -53,11 +62,11 @@
       <div id="content-en" role="tabpanel" aria-labelledby="tab-en">
         <div class="section">
           <p>
-            ShopGuard respects your trust. These Terms &amp; Conditions explain the rules for using the ShopGuard mobile application.
-            By downloading, installing, or using ShopGuard, you agree to these Terms.
+            These Terms &amp; Conditions (“Terms”) govern your use of the ShopGuard mobile application (“App”).
+            By downloading, installing, accessing, or using ShopGuard, you agree to these Terms.
           </p>
           <p class="small">
-            ShopGuard is a record-keeping and productivity tool for businesses. It is not a credit bureau, not a background verification service,
+            ShopGuard is a business record-keeping and productivity tool. It is not a credit bureau, not a verification agency,
             and does not provide legal, tax, or financial advice.
           </p>
         </div>
@@ -65,14 +74,14 @@
         <div class="section">
           <h2>1) Acceptance of Terms</h2>
           <p>
-            By using ShopGuard, you confirm that you have read, understood, and agreed to these Terms &amp; Conditions.
-            If you do not agree, please do not use the app.
+            By using ShopGuard, you confirm that you have read, understood, and agreed to these Terms.
+            If you do not agree, please do not use the App.
           </p>
         </div>
 
         <div class="section">
           <h2>2) App Purpose</h2>
-          <p>ShopGuard is designed to help shopkeepers and small businesses manage:</p>
+          <p>ShopGuard helps shopkeepers and small businesses manage records such as:</p>
           <ul>
             <li>Rozmel diary entries</li>
             <li>Customer/Supplier ledger (Udhar accounts)</li>
@@ -81,10 +90,9 @@
             <li>Attachments (bills/photos/documents)</li>
             <li>App-related notifications and updates</li>
           </ul>
-          <p>ShopGuard is a record-keeping tool and does not provide legal, tax, or financial advice.</p>
+          <p>ShopGuard does not guarantee business outcomes and does not provide professional advice.</p>
         </div>
 
-        <!-- ✅ NEW: Owner list vs Public search (Play Store safe wording) -->
         <div class="section">
           <h2>3) Customer Lists &amp; Search (Owner List vs Public Search)</h2>
 
@@ -104,87 +112,90 @@
             </li>
           </ul>
 
-          <p class="small">
-            Important: ShopGuard does not verify or guarantee the accuracy of user-entered information. Users must independently verify details
-            before taking business decisions.
-          </p>
+          <div class="noteBox">
+            Important: ShopGuard does not verify or guarantee the accuracy of user-entered information.
+            Users must independently verify details before taking business decisions.
+          </div>
         </div>
 
         <div class="section">
           <h2>4) User Responsibilities</h2>
           <p>You agree that:</p>
           <ul>
-            <li>You will enter correct information to the best of your knowledge.</li>
+            <li>You will enter information accurately to the best of your knowledge.</li>
             <li>You are responsible for all data you add (customer details, amounts, notes, attachments).</li>
             <li>You will keep your login credentials secure and not share your password.</li>
-            <li>You will not use the app for any illegal activities, harassment, threats, impersonation, or misuse.</li>
-            <li>You will not upload illegal, harmful, or copyrighted content without rights.</li>
-            <li>You will not attempt to hack, reverse engineer, scrape, or bypass app security.</li>
+            <li>You will not use the App for illegal activities, harassment, threats, impersonation, or misuse.</li>
+            <li>You will not upload unlawful, harmful, or copyrighted content without permission.</li>
+            <li>You will not attempt to hack, reverse engineer, scrape, or bypass App security.</li>
           </ul>
         </div>
 
         <div class="section">
-          <h2>5) Data Accuracy &amp; No Guarantee</h2>
+          <h2>5) Data Accuracy, Reminders &amp; No Guarantee</h2>
           <p>
-            ShopGuard helps you store and manage records, but you should verify important financial data yourself.
+            ShopGuard helps you store and manage records, but you should verify important data yourself.
           </p>
           <p>
-            Reminders/notifications depend on device settings and Android system behavior. Because of factors such as battery optimization,
-            Do Not Disturb, network issues, permissions, or OS restrictions, ShopGuard cannot guarantee that every reminder/notification
+            Reminders/notifications depend on device settings and Android system behavior. Due to battery optimization,
+            Do Not Disturb, network issues, permissions, or OS restrictions, ShopGuard cannot guarantee that every reminder
             will be delivered at the exact time on all devices.
           </p>
-          <p>ShopGuard is not responsible for any loss caused due to:</p>
+          <p>ShopGuard is not responsible for loss caused by:</p>
           <ul>
-            <li>Wrong data entry</li>
+            <li>Incorrect data entry</li>
             <li>Missed reminders/notifications</li>
-            <li>Device issues or battery/OS restrictions</li>
+            <li>Device issues or OS restrictions</li>
             <li>Network problems</li>
-            <li>Any user mistakes</li>
+            <li>User mistakes</li>
           </ul>
         </div>
 
-        <!-- ✅ UPDATED: precise 90-day trial + paid-only after -->
         <div class="section">
-          <h2>6) Subscription / Trial</h2>
+          <h2>6) Free Trial &amp; Subscription (Google Play Billing)</h2>
           <p>
-            ShopGuard may offer a <span class="pill">90-day free trial</span> for new users. After the trial period ends,
-            ShopGuard may become <span class="pill">paid-only</span> and premium features may require an active subscription.
+            ShopGuard may offer a <span class="pill">90-day free trial</span> for eligible users.
+            After the trial ends, the App may become <span class="pill">paid-only</span> and premium features may require an active subscription.
           </p>
-          <p>
-            If subscription is offered, payments (if applicable) are handled through Google Play Billing only.
-            Subscription terms (price, duration, renewal, cancellation) are governed by Google Play and shown at the time of purchase.
-          </p>
-          <p>
+
+          <ul>
+            <li><b>No automatic charge after trial:</b> You are charged only if you manually purchase a plan.</li>
+            <li>Subscriptions (monthly/yearly) are processed via <b>Google Play Billing</b>.</li>
+            <li>ShopGuard does <b>not</b> collect/store your card/UPI payment details.</li>
+            <li>Prices, renewal terms, and cancellation options are shown inside Google Play at the time of purchase.</li>
+          </ul>
+
+          <p class="small">
             Trial availability, duration, and eligibility may change in future updates, as permitted by law.
           </p>
         </div>
 
         <div class="section">
           <h2>7) Third-Party Services</h2>
-          <p>ShopGuard uses trusted third-party services such as Google Firebase, including:</p>
+          <p>ShopGuard uses Google Firebase services to operate the App, including:</p>
           <ul>
             <li>Authentication</li>
-            <li>Firestore Database</li>
-            <li>Storage</li>
-            <li>Analytics</li>
-            <li>Cloud Messaging (FCM)</li>
+            <li>Cloud Firestore</li>
+            <li>Firebase Storage</li>
+            <li>Firebase Cloud Messaging (FCM)</li>
+            <li>Firebase Analytics</li>
             <li>Cloud Functions</li>
           </ul>
-          <p>These services may process data as required to provide app functionality.</p>
+          <p>These services may process data as required to provide App functionality.</p>
         </div>
 
         <div class="section">
           <h2>8) Account Deletion &amp; Data Deletion</h2>
           <p>Users can delete their account and associated data in two ways:</p>
           <p><b>A) Inside the App (Recommended)</b><br/>Settings → Delete Account &amp; Data</p>
-          <p><b>B) By Contacting Support</b><br/>If you cannot access the app, you may request deletion by email: <b>shopguard.help@gmail.com</b></p>
+          <p><b>B) By Contacting Support</b><br/>If you cannot access the App, you may request deletion by email: <b>shopguard.help@gmail.com</b></p>
         </div>
 
         <div class="section">
           <h2>9) Intellectual Property</h2>
           <p>
-            The ShopGuard app, its design, logo, and content are owned by ShopGuard.
-            You may not copy, modify, or distribute the app or its content without permission.
+            The App, its design, logo, and content are owned by ShopGuard. You may not copy, modify, or distribute the App
+            without permission.
           </p>
         </div>
 
@@ -192,10 +203,10 @@
           <h2>10) Prohibited Use</h2>
           <p>You must not:</p>
           <ul>
-            <li>Upload illegal or harmful content</li>
+            <li>Upload unlawful or harmful content</li>
             <li>Attempt to hack, reverse engineer, scrape, or bypass security</li>
-            <li>Use ShopGuard in any way that violates laws or regulations</li>
-            <li>Misuse the app for harassment, threats, or impersonation</li>
+            <li>Use the App in a way that violates laws or regulations</li>
+            <li>Misuse the App for harassment, threats, or impersonation</li>
           </ul>
         </div>
 
@@ -207,20 +218,27 @@
           <ul>
             <li>Any indirect, incidental, special, consequential damages</li>
             <li>Business loss, loss of profits, or loss of data</li>
-            <li>Any damages arising from the use or inability to use the app</li>
+            <li>Any damages arising from use or inability to use the App</li>
           </ul>
         </div>
 
         <div class="section">
-          <h2>12) Changes to These Terms</h2>
+          <h2>12) Termination</h2>
           <p>
-            We may update these Terms &amp; Conditions from time to time.
-            Any changes will be reflected in this document and/or within the app where applicable.
+            We may suspend or terminate access to the App if you violate these Terms or misuse the App.
+            You may stop using the App at any time.
           </p>
         </div>
 
         <div class="section">
-          <h2>13) Contact Us</h2>
+          <h2>13) Changes to These Terms</h2>
+          <p>
+            We may update these Terms from time to time. Any changes will be reflected in this document and/or within the App where applicable.
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>14) Contact Us</h2>
           <p>If you have questions about these Terms, contact:</p>
           <p>Email: <b>shopguard.help@gmail.com</b></p>
         </div>
@@ -232,11 +250,11 @@
       <div id="content-hi" role="tabpanel" aria-labelledby="tab-hi" style="display:none;">
         <div class="section">
           <p>
-            ShopGuard आपके विश्वास का सम्मान करता है। ये नियम व शर्तें बताती हैं कि ShopGuard मोबाइल एप्लिकेशन का उपयोग करते समय
-            कौन-कौन से नियम लागू होंगे। एप को डाउनलोड, इंस्टॉल या उपयोग करने पर आप इन शर्तों से सहमत होते हैं।
+            ये नियम व शर्तें (“Terms”) ShopGuard मोबाइल ऐप (“App”) के उपयोग पर लागू होती हैं।
+            एप को डाउनलोड, इंस्टॉल या उपयोग करने पर आप इन शर्तों से सहमत होते हैं।
           </p>
           <p class="small">
-            ShopGuard एक रिकॉर्ड-कीपिंग/प्रोडक्टिविटी टूल है। यह कोई क्रेडिट ब्यूरो या वेरिफिकेशन सेवा नहीं है,
+            ShopGuard एक business record-keeping और productivity tool है। यह कोई क्रेडिट ब्यूरो या verification agency नहीं है,
             और यह कानूनी/टैक्स/वित्तीय सलाह नहीं देता।
           </p>
         </div>
@@ -251,7 +269,7 @@
 
         <div class="section">
           <h2>2) एप का उद्देश्य</h2>
-          <p>ShopGuard एप दुकान और छोटे व्यवसाय के लिए बनाया गया है, जिसमें शामिल है:</p>
+          <p>ShopGuard एप दुकान और छोटे व्यवसाय के लिए रिकॉर्ड मैनेज करने में मदद करता है, जैसे:</p>
           <ul>
             <li>रोज़मेल डायरी एंट्री</li>
             <li>ग्राहक/सप्लायर लेजर (उधार खाते)</li>
@@ -260,12 +278,11 @@
             <li>अटैचमेंट (बिल/फोटो/डॉक्यूमेंट)</li>
             <li>एप से जुड़े नोटिफिकेशन और अपडेट</li>
           </ul>
-          <p>ShopGuard एक रिकॉर्ड-कीपिंग टूल है। यह कानूनी, टैक्स या वित्तीय सलाह नहीं देता।</p>
+          <p>ShopGuard किसी भी business outcome की guarantee नहीं देता और professional advice नहीं देता।</p>
         </div>
 
-        <!-- ✅ NEW: Owner list vs Public search (Play Store safe wording) -->
         <div class="section">
-          <h2>3) Customer Lists &amp; Search (Owner List vs Public Search)</h2>
+          <h2>3) “My Customers” और “Search Customer (10-digit)”</h2>
 
           <p><b>A) “My Customers” (Owner List)</b></p>
           <ul>
@@ -283,10 +300,10 @@
             </li>
           </ul>
 
-          <p class="small">
-            महत्वपूर्ण: ShopGuard user द्वारा डाली गई जानकारी की सत्यता verify नहीं करता। कोई भी business decision लेने से पहले
-            जानकारी की जांच करना user की जिम्मेदारी है।
-          </p>
+          <div class="noteBox">
+            महत्वपूर्ण: ShopGuard user द्वारा डाली गई जानकारी की सत्यता verify नहीं करता।
+            कोई भी business decision लेने से पहले जानकारी की जांच करना user की जिम्मेदारी है।
+          </div>
         </div>
 
         <div class="section">
@@ -303,9 +320,9 @@
         </div>
 
         <div class="section">
-          <h2>5) डेटा की सही-गलत व कोई गारंटी नहीं</h2>
+          <h2>5) डेटा की सही-गलत, रिमाइंडर और कोई गारंटी नहीं</h2>
           <p>
-            ShopGuard रिकॉर्ड रखने में मदद करता है, लेकिन महत्वपूर्ण वित्तीय जानकारी को आपको स्वयं जांचना चाहिए।
+            ShopGuard रिकॉर्ड रखने में मदद करता है, लेकिन महत्वपूर्ण डेटा को आपको स्वयं जांचना चाहिए।
           </p>
           <p>
             रिमाइंडर/नोटिफिकेशन डिवाइस सेटिंग्स और Android सिस्टम पर निर्भर करते हैं।
@@ -315,32 +332,35 @@
           <p>गलत एंट्री, रिमाइंडर/नोटिफिकेशन मिस, नेटवर्क/डिवाइस समस्या या यूज़र गलती से होने वाले नुकसान की जिम्मेदारी ShopGuard की नहीं होगी।</p>
         </div>
 
-        <!-- ✅ UPDATED: precise 90-day trial + paid-only after -->
         <div class="section">
-          <h2>6) सब्सक्रिप्शन / फ्री ट्रायल</h2>
+          <h2>6) Free Trial और Subscription (Google Play Billing)</h2>
           <p>
-            ShopGuard नए यूज़र्स को <span class="pill">90 दिन का फ्री ट्रायल</span> दे सकता है।
-            ट्रायल खत्म होने के बाद ShopGuard <span class="pill">paid-only</span> हो सकता है और प्रीमियम फीचर्स के लिए
+            ShopGuard eligible users को <span class="pill">90 दिन का फ्री ट्रायल</span> दे सकता है।
+            ट्रायल खत्म होने के बाद एप <span class="pill">paid-only</span> हो सकता है और premium features के लिए
             एक्टिव सब्सक्रिप्शन जरूरी हो सकता है।
           </p>
-          <p>
-            भुगतान (यदि लागू हो) केवल Google Play Billing के माध्यम से होगा।
-            सब्सक्रिप्शन की कीमत, अवधि, रिन्यूअल, कैंसिलेशन की शर्तें Google Play पर खरीद के समय दिखाई जाएँगी।
-          </p>
-          <p>
+
+          <ul>
+            <li><b>Trial के बाद automatic charge नहीं:</b> पैसे तभी कटेंगे जब आप खुद plan खरीदेंगे।</li>
+            <li>Subscription (monthly/yearly) <b>Google Play Billing</b> के माध्यम से securely process होता है।</li>
+            <li>ShopGuard आपके card/UPI details collect या store नहीं करता।</li>
+            <li>Price, renewal terms और cancellation options Google Play पर खरीद के समय दिखेंगे।</li>
+          </ul>
+
+          <p class="small">
             ट्रायल की उपलब्धता/अवधि/पात्रता भविष्य के अपडेट में (कानून के अनुसार) बदली जा सकती है।
           </p>
         </div>
 
         <div class="section">
           <h2>7) थर्ड-पार्टी सेवाएँ</h2>
-          <p>ShopGuard Google के Firebase जैसी भरोसेमंद सेवाओं का उपयोग करता है, जैसे:</p>
+          <p>ShopGuard एप चलाने के लिए Google Firebase जैसी सेवाओं का उपयोग करता है, जैसे:</p>
           <ul>
             <li>Authentication</li>
-            <li>Firestore Database</li>
-            <li>Storage</li>
-            <li>Analytics</li>
-            <li>Cloud Messaging (FCM)</li>
+            <li>Cloud Firestore</li>
+            <li>Firebase Storage</li>
+            <li>Firebase Cloud Messaging (FCM)</li>
+            <li>Firebase Analytics</li>
             <li>Cloud Functions</li>
           </ul>
           <p>ये सेवाएँ एप की सुविधाएँ चलाने के लिए आवश्यकतानुसार डेटा प्रोसेस कर सकती हैं।</p>
@@ -385,16 +405,22 @@
         </div>
 
         <div class="section">
-          <h2>12) शर्तों में बदलाव</h2>
+          <h2>12) समाप्ति (Termination)</h2>
           <p>
-            हम समय-समय पर इन नियम व शर्तों को अपडेट कर सकते हैं।
-            बदलाव इसी document में और जहाँ लागू हो, एप में दिखेंगे।
+            यदि आप इन Terms का उल्लंघन करते हैं या एप का misuse करते हैं, तो हम आपका access suspend/terminate कर सकते हैं।
+            आप कभी भी एप का उपयोग बंद कर सकते हैं।
           </p>
         </div>
 
         <div class="section">
-          <h2>13) संपर्क</h2>
-          <p>यदि आपको इन शर्तों से संबंधित कोई प्रश्न हो तो संपर्क करें:</p>
+          <h2>13) शर्तों में बदलाव</h2>
+          <p>
+            हम समय-समय पर इन Terms को अपडेट कर सकते हैं। बदलाव इसी document में और जहाँ लागू हो, एप में दिखेंगे।
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>14) संपर्क</h2>
           <p>Email: <b>shopguard.help@gmail.com</b></p>
         </div>
 
